@@ -102,10 +102,11 @@ img {
 }
 @media (max-width: 576px) {
   h1 {
-    font-size: 60px;
+    font-size: 48px;
   }
   h2 {
     font-size: 41px;
+    margin-top: 40px;
   }
   h3 {
     font-size: 19px;
@@ -115,5 +116,15 @@ img {
   }
   .email-link {
     font-size: 22px;
+  }
+  h2 .yogaHead,
+  .weatherHead,
+  .yogurtHead {
+    text-align: center;
+  }
+  a .launchButton {
+    text-align: center;
+    margin-top: 40px;
+    max-width: 80%;
   }
 }
