@@ -100,3 +100,20 @@ img {
   text-decoration: none;
   text-transform: capitalize;
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 41px;
+  }
+  h3 {
+    font-size: 19px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .email-link {
+    font-size: 22px;
+  }
+}
